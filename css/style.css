@@ -18,6 +18,7 @@ header {
     color: rgb(58, 15, 15);
     @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
     font-family: 'Mooli', sans-serif;
+    padding-top: 5%;
 }
 
 h2, h3 {
@@ -65,8 +66,7 @@ nav a {
 nav {
     background-color: #eb0029;
     display: flex;
-    margin-bottom: 50px;
-    overflow: hidden;
+    overflow: auto;
     position: fixed;
     top: 0;
     width: 100%;
