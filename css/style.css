@@ -1,9 +1,10 @@
 html {
     scroll-behavior: smooth;
+    scroll-padding: 8REM;
   }
 
 #container {
-    max-width  2000px;
+    max-width: 2000px;
     border-radius: 10px;
 }
 
@@ -11,8 +12,6 @@ body {
     margin: 0;
     display: flex; 
     justify-content: center; 
-    border: 5px solid black;
-    border-radius: 5px;
 }
 
 header {
@@ -67,6 +66,12 @@ nav {
     background-color: #eb0029;
     display: flex;
     margin-bottom: 50px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 2000px;
+    border-bottom: 5px solid rgb(58, 15, 15);
 }
 
 main {
